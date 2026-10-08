@@ -32,3 +32,12 @@ Três testes, na ordem de importância:
 3. **Agregados do post.** Mediana, faixa entre os pivôs de 3/5 e custo de governar realizados em 2027, por casa, contra os valores projetados e seus intervalos em `results/`.
 
 Teste secundário, no nível do voto: por votação de 2027, estimar nos demais legisladores o ponto de corte (probit do voto na posição) e a maioria de cada partido, e prever o voto de cada um pela sua posição de dezembro de 2026 ou pela maioria do seu partido. No análogo com a 57ª (posições de dezembro de 2022, 415 mil votos), a maioria do partido acertou 88,6 % e a posição 83,1 % (83,9 % em duas dimensões). Como preditor de votos um a um, o rótulo partidário é o que se espera que vença; a posição serve para pôr todos na mesma escala.
+
+## Depois do segundo turno (25/10/2026)
+
+Duas peças das previsões dependem de quem governa, porque foram estimadas sob o governo Lula (novatos de 2023):
+
+1. **Resíduos do centrão.** Em 2023, parte dos novatos do centrão foi parar à esquerda da mediana do partido; são sobretudo os do Nordeste (resíduo médio −0,11, contra +0,19 no Sul), e a participação de Lula no estado prevê esse desvio (−0,56 por ponto de participação, p < 0,001). O desnível regional dentro do centrão não existia sob Bolsonaro (56ª: Nordeste −0,02, Sul +0,05 em relação à mediana do centrão; 57ª: −0,07 e +0,24): é alinhamento com o governo do dia, não traço do eleitorado. Com governo de esquerda, a sorteio dos resíduos vale como está e o modelo pode incorporar a participação de Lula no estado por bloco (RMSE nos novatos de 2023 de 0,226 para 0,216; `notes/predicao_57/regiao.R` no projeto de origem). Com governo de direita, o sinal desse componente provavelmente se inverte e o modelo deve ficar na v2 sem o termo regional, com os resíduos do centrão centrados.
+2. **A corcova em r ≈ 0,3 da densidade relativa da Câmara** é esse mesmo componente; não entra nos números do post (medianas, pivôs, custos), que dependem pouco dele.
+
+A composição regional também explica parte da diferença entre as casas: reponderando a Câmara de 2023–26 para a distribuição regional do Senado (Norte, Nordeste e Centro-Oeste têm 75 % das cadeiras do Senado e 51 % da Câmara), a proporção na banda central vai de 0,41 para 0,46, a do Senado; a mediana não (0,13 reponderada, 0,08 no Senado): a bancada nordestina do Senado está bem à esquerda dos deputados nordestinos (−0,21 contra 0,04).
