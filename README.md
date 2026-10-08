@@ -11,4 +11,4 @@ Cálculos do post "O Congresso de 2027: mesma Câmara, outro Senado" (`post.md`)
 source("R/post.R")
 ```
 
-Escalas, previsões e validação: https://github.com/eleon/bancada28
+Escalas, modelo de previsão e validação: projeto `bancada28` (não publicado), que gera os arquivos em `data/`.
