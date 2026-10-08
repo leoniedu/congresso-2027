@@ -1,0 +1,511 @@
+nome,uf,partido,dim1
+Socorro Neri,AC,PP,-0.0628
+Gleisi Hoffmann,PR,PT,-0.7979
+Ana Paula Leão,MG,PP,0.4137
+Benes Leocádio,RN,UNIÃO,0.1581
+Adriano do Baldy,GO,PP,0.1971
+Pedro Paulo,RJ,PSD,0.0611
+Pedro Lucas Fernandes,MA,UNIÃO,0.1539
+Átila Lira,PI,PP,0.0101
+Antônia Lúcia,AC,MDB,0.1233
+Enio Verri,PR,PT,-0.8117
+André Figueiredo,CE,PDT,-0.4728
+Marcelo Moraes,RS,PL,0.659
+Afonso Hamm,RS,PP,0.421
+Vicentinho Júnior,TO,PSDB,0.2161
+Lídice da Mata,BA,PSB,-0.6748
+Arnaldo Jardim,SP,CIDADANIA,0.0849
+Carlos Zarattini,SP,PT,-0.782
+Cleber Verde,MA,MDB,0.1543
+Dagoberto Nogueira,MS,PP,-0.4407
+Eduardo da Fonte,PE,PP,0.1184
+Fernando Coelho Filho,PE,UNIÃO,0.1627
+Hugo Leal,RJ,PSD,0.2412
+Jilmar Tatto,SP,PT,-0.6875
+João Carlos Bacelar,BA,PL,0.0907
+João Maia,RN,PP,0.2405
+José Airton Félix Cirilo,CE,PT,-0.7547
+José Guimarães,CE,PT,-0.749
+Luiz Carlos Busato,RS,UNIÃO,0.1153
+Luiz Fernando Faria,MG,UNIÃO,-0.0441
+Paulo Teixeira,SP,PT,-0.8316
+Paulo Abi-Ackel,MG,PSDB,0.1319
+Rodrigo de Castro,MG,UNIÃO,0.1188
+Rodrigo Rollemberg,DF,PSB,-0.4679
+Vinicius Carvalho,SP,PL,0.2696
+Tiago Dimas,TO,PODE,0.1574
+Domingos Neto,CE,PSD,0.1175
+Márcio Marinho,BA,REPUBLICANOS,0.2107
+Glauber Braga,RJ,PSOL,-0.8034
+Renilce Nicodemos,PA,MDB,-0.0148
+Milton Vieira,SP,REPUBLICANOS,0.2777
+Marcel van Hattem,RS,NOVO,0.6561
+Túlio Gadêlha,PE,PSD,-0.8091
+Marcelo Queiroz,RJ,PSDB,-0.123
+Afonso Florence,BA,PT,-0.7978
+Luis Tibé,MG,AVANTE,0.1726
+Aureo Ribeiro,RJ,SOLIDARIEDADE,0.0664
+Paulo Folletto,ES,PSB,-0.441
+Weliton Prado,MG,PSD,-0.1247
+Aguinaldo Ribeiro,PB,PP,0.1444
+Jhonatan de Jesus,RR,REPUBLICANOS,0.3791
+Marcon,RS,PT,-0.7459
+Bohn Gass,RS,PT,-0.8003
+Arthur Lira,AL,PP,0.2443
+Alexandre Leite,SP,UNIÃO,0.2646
+Jonas Donizette,SP,PSB,-0.3729
+Danrlei de Deus Hinterholz,RS,PSD,0.3448
+Antonio Brito,BA,PSD,0.132
+Padre João,MG,PT,-0.7934
+Paulo Freire Costa,SP,PL,0.6289
+Alceu Moreira,RS,MDB,0.3379
+Waldenor Pereira,BA,PT,-0.8287
+Erika Kokay,DF,PT,-0.8603
+Diego Andrade,MG,PSD,0.1933
+Vinicius Gurgel,AP,PL,0.4631
+Zeca Dirceu,PR,PT,-0.7812
+Flávia Morais,GO,MDB,-0.3818
+Dimas Fabiano,MG,PP,0.1887
+Arthur Oliveira Maia,BA,UNIÃO,0.1945
+Pr. Marco Feliciano,SP,PL,0.6584
+Pedro Uczai,SC,PT,-0.8213
+Valmir Assunção,BA,PT,-0.7892
+Sandro Alex,PR,PSD,0.2896
+Romero Rodrigues,PB,PODE,-0.0945
+Zé Silva,MG,UNIÃO,0.0958
+Ruy Carneiro,PB,PODE,-0.0428
+Eros Biondini,MG,PL,0.6602
+Professora Marcivania,AP,PCdoB,-0.6805
+Pastor Eurico,PE,PSDB,0.6731
+Augusto Coutinho,PE,REPUBLICANOS,0.1044
+Félix Mendonça Júnior,BA,PDT,-0.338
+Giovani Cherini,RS,PL,0.6492
+Hugo Motta,PB,REPUBLICANOS,0.1508
+Domingos Sávio,MG,PL,0.5482
+Tiririca,SP,PSD,-0.1896
+Pezenti,SC,MDB,0.8
+Emidinho Madeira,MG,PL,0.4712
+Kiko Celeguim,SP,PT,-0.7121
+Luiz Nishimori,PR,PSD,0.22
+Carmen Zanotto,SC,CIDADANIA,0.0588
+Rodrigo Valadares,SE,PL,0.7771
+Magda Mofatto,GO,PL,0.6286
+Paulão,AL,PT,-0.8076
+Fabio Reis,SE,PSD,0.1581
+Miguel Ângelo,MG,PT,-0.7443
+Capitão Augusto,SP,PL,0.6279
+André Abdon,AP,PP,0.2533
+Leandre,PR,PSD,-0.0876
+Afonso Motta,RS,PDT,-0.3743
+Marx Beltrão,AL,UNIÃO,0.153
+Elmar Nascimento,BA,UNIÃO,0.2106
+Jorge Solla,BA,PT,-0.8069
+Mário Negromonte Jr.,BA,PSB,0.0432
+Paulo Azi,BA,UNIÃO,0.2185
+Luizianne Lins,CE,REDE,-0.7988
+Evair Vieira de Melo,ES,REPUBLICANOS,0.7458
+Helder Salomão,ES,PT,-0.8008
+Célio Silveira,GO,MDB,0.1977
+Aluisio Mendes,MA,REPUBLICANOS,0.223
+André Fufuca,MA,PP,0.2808
+Juscelino Filho,MA,PSDB,0.143
+Rubens Pereira Júnior,MA,PT,-0.7449
+Misael Varella,MG,PSD,0.1868
+Newton Cardoso Jr,MG,MDB,0.138
+Delegado Éder Mauro,PA,PL,0.6843
+Joaquim Passarinho,PA,PL,0.5941
+Rejane Dias,PI,PT,-0.7778
+Aliel Machado,PR,PV,-0.5675
+Diego Garcia,PR,UNIÃO,0.3631
+Luciano Ducci,PR,PSB,-0.2529
+Sergio Souza,PR,MDB,0.2393
+Toninho Wandscheer,PR,PP,0.1755
+Altineu Côrtes,RJ,PL,0.5248
+Marcos Soares,RJ,PSDB,0.2771
+Rosangela Gomes,RJ,REPUBLICANOS,0.2635
+Soraya Santos,RJ,PL,0.5509
+Sóstenes Cavalcante,RJ,PL,0.5902
+Lucio Mosquini,RO,PL,0.3593
+Carlos Gomes,RS,REPUBLICANOS,0.2678
+Covatti Filho,RS,PP,0.581
+Heitor Schuch,RS,PSD,-0.5231
+João Daniel,SE,PT,-0.7644
+Alex Manente,SP,CIDADANIA,0.0836
+Baleia Rossi,SP,MDB,0.1213
+Marcio Alvino,SP,PL,0.6855
+Miguel Lombardi,SP,PL,0.5733
+Nilto Tatto,SP,PT,-0.7859
+Renata Abreu,SP,PODE,0.019
+Vitor Lippi,SP,PSD,0.1005
+Carlos Henrique Gaguim,TO,UNIÃO,0.1978
+Moses Rodrigues,CE,UNIÃO,0.094
+Marcelo Álvaro Antônio,MG,PL,0.6386
+Márcio Biolchi,RS,MDB,0.1724
+Pastor Diniz,RR,UNIÃO,0.6052
+Flávio Nogueira,PI,PT,-0.2417
+Greyce Elias,MG,PL,0.411
+Emanuel Pinheiro Neto,MT,PSD,0.0099
+Dr. Luiz Ovando,MS,PP,0.4243
+Aline Gurgel,AP,UNIÃO,0.1769
+Da Vitoria,ES,PP,0.1967
+Amaro Neto,ES,PP,0.2116
+Beto Pereira,MS,REPUBLICANOS,0.1966
+Silvia Cristina,RO,PP,-0.0067
+Carlos Chiodini,SC,MDB,0.2378
+Ricardo Guidi,SC,PL,0.5945
+Eli Borges,TO,REPUBLICANOS,0.4777
+Gilson Marques,SC,NOVO,0.6547
+Daniel Freitas,SC,PL,0.8064
+Fabio Schiochet,SC,UNIÃO,0.4826
+Caroline de Toni,SC,PL,0.8231
+Julio Cesar Ribeiro,DF,REPUBLICANOS,0.2332
+Bia Kicis,DF,PL,0.7811
+Coronel Chrisóstomo,RO,PL,0.7059
+Acácio Favacho,AP,MDB,0.1992
+Sargento Fahur,PR,PL,0.8355
+Bibo Nunes,RS,PL,0.6802
+Professor Alcides,GO,PSDB,0.5657
+José Nelto,GO,UNIÃO,0.0647
+Gervásio Maia,PB,PCdoB,-0.6196
+Pedro Lupion,PR,REPUBLICANOS,0.5108
+Vermelho,PR,PL,0.4315
+Felipe Francischini,PR,PODE,0.5249
+Lucas Redecker,RS,PSD,0.4784
+Pedro Westphalen,RS,PP,0.4751
+Fernanda Melchionna,RS,PSOL,-0.7997
+Gustinho Ribeiro,SE,PP,0.1857
+Daniel Trzeciak,RS,PSDB,0.3633
+Luisa Canziani,PR,UNIÃO,0.3016
+Filipe Barros,PR,PL,0.753
+Dr. Zacharias Calil,GO,MDB,0.4052
+Sanderson,RS,PL,0.7675
+Glaustin da Fokus,GO,PODE,0.2445
+André Ferreira,PE,PL,0.5888
+Silvio Costa Filho,PE,REPUBLICANOS,0.1192
+Carlos Veras,PE,PT,-0.79
+Fernando Rodolfo,PE,PRD,0.3283
+Marcos Aurélio Sampaio,PI,MDB,0.1062
+Isnaldo Bulhões Jr.,AL,MDB,0.1103
+Otoni de Paula,RJ,PSD,0.333
+Helio Lopes,RJ,PL,0.6981
+Fernando Mineiro,RN,PT,-0.7616
+Doutor Luizinho,RJ,PP,0.2476
+Natália Bonavides,RN,PT,-0.8243
+Luiz Lima,RJ,NOVO,0.7674
+Gutemberg Reis,RJ,MDB,0.1391
+Juninho do Pneu,RJ,PSDB,0.1565
+Daniela do Waguinho,RJ,REPUBLICANOS,0.0316
+Carlos Jordy,RJ,PL,0.7934
+Chris Tonietto,RJ,PL,0.8153
+Talíria Petrone,RJ,PSOL,-0.7948
+José Medeiros,MT,PL,0.6633
+General Girão,RN,PL,0.6887
+Juarez Costa,MT,REPUBLICANOS,0.1272
+Chiquinho Brazão,RJ,UNIÃO,0.2959
+Nicoletti,RR,PL,0.7
+Rogério Correia,MG,PT,-0.8165
+Dr. Jaziel,CE,PL,0.6847
+Euclydes Pettersen,MG,REPUBLICANOS,0.1847
+Luiz Carlos Motta,SP,PL,0.4647
+Mauro Benevides Filho,CE,UNIÃO,-0.4329
+Célio Studart,CE,PSD,-0.367
+Robério Monteiro,CE,PSB,-0.4117
+Gilberto Abramo,MG,REPUBLICANOS,0.2164
+Paulo Guedes,MG,PT,-0.7723
+Fred Costa,MG,PRD,0.143
+Airton Faleiro,PA,PT,-0.7846
+Celso Sabino,PA,PDT,0.2059
+Júnior Ferrari,PA,PSD,0.2235
+Olival Marques,PA,PODE,0.2446
+Alencar Santana,SP,PT,-0.7988
+Alexandre Padilha,SP,PT,-0.8261
+Cezinha de Madureira,SP,PL,0.2355
+Marcos Pereira,SP,REPUBLICANOS,0.2433
+Carla Zambelli,SP,PL,0.8046
+Igor Timo,MG,UNIÃO,0.0599
+David Soares,SP,PODE,0.3607
+Delegado Marcelo Freitas,MG,UNIÃO,0.2614
+André Janones,MG,REDE,-0.3489
+Zé Vitor,MG,PL,0.4552
+Dr. Frederico,MG,PL,0.6684
+Junio Amaral,MG,PL,0.8712
+Marco Bertaiolli,SP,PSD,0.2596
+Pinheirinho,MG,PP,0.2843
+Rosana Valle,SP,PL,0.1743
+Luiz Philippe de Orleans e Bragança,SP,PL,0.8996
+Adriana Ventura,SP,NOVO,0.6507
+Guilherme Derrite,SP,PP,0.7775
+Idilvan Alencar,CE,PSB,-0.6128
+Tabata Amaral,SP,PSB,-0.2923
+Sâmia Bomfim,SP,PSOL,-0.8018
+Kim Kataguiri,SP,MISSÃO,0.5745
+Hercílio Coelho Diniz,MG,MDB,0.153
+Maria Rosas,SP,REPUBLICANOS,0.212
+Eduardo Bismarck,CE,PV,-0.3849
+AJ Albuquerque,CE,PP,0.1859
+Júnior Mano,CE,PSB,0.1614
+Pastor Sargento Isidório,BA,AVANTE,-0.4081
+Sidney Leite,AM,PSD,0.0873
+Zé Neto,BA,PT,-0.7467
+Adolfo Viana,BA,PSDB,0.1887
+Josimar Maranhãozinho,MA,PL,0.4426
+Marreca Filho,MA,PRD,0.1182
+Raimundo Costa,BA,PSD,0.1017
+Pastor Gil,MA,PL,0.5291
+Alex Santana,BA,REPUBLICANOS,0.0392
+Capitão Alberto Neto,AM,PL,0.6291
+Otto Alencar Filho,BA,PSD,-0.0549
+Junior Lourenço,MA,MDB,0.1776
+Jorge Braz,RJ,REPUBLICANOS,0.2325
+Célia Xakriabá,MG,PSOL,-0.7372
+Joseildo Ramos,BA,PT,-0.7861
+Nikolas Ferreira,MG,PL,0.8482
+Bruno Farias,MG,REPUBLICANOS,0.0405
+Ricardo Silva,SP,PSD,-0.0982
+Jorge Goetten,SC,REPUBLICANOS,0.284
+Josivaldo JP,MA,UNIÃO,0.1909
+Gilvan da Federal,ES,PL,0.8019
+Jack Rocha,ES,PT,-0.7638
+Dr. Victor Linhalis,ES,PSB,-0.0512
+Gilson Daniel,ES,PODE,-0.1899
+Messias Donato,ES,UNIÃO,0.664
+Rafael Prudente,DF,MDB,0.1487
+Prof. Reginaldo Veras,DF,PV,-0.6353
+Fred Linhares,DF,REPUBLICANOS,0.1029
+Zé Haroldo Cathedral,RR,UNIÃO,0.0293
+Helena Lima,RR,PSD,-0.0882
+Albuquerque,RR,REPUBLICANOS,0.1197
+Defensor Stélio Dener,RR,UNIÃO,-0.0063
+Duda Ramos,RR,PODE,0.071
+Alexandre Guimarães,TO,MDB,0.2124
+Ricardo Ayres,TO,REPUBLICANOS,-0.0075
+Antonio Andrade,TO,PSDB,0.0757
+Filipe Martins,TO,PL,0.7397
+Rodolfo Nogueira,MS,PL,0.8268
+Marcos Pollon,MS,PL,0.8627
+Camila Jara,MS,PT,-0.7449
+Any Ortiz,RS,PP,0.5641
+Mauricio Marcon,RS,PL,0.8629
+Franciane Bayer,RS,REPUBLICANOS,0.318
+Zucco,RS,PL,0.773
+Denise Pessôa,RS,PT,-0.7313
+Alexandre Lindenmeyer,RS,PT,-0.7712
+Daiana Santos,RS,PCdoB,-0.7373
+Ana Paula Lima,SC,PT,-0.7395
+Daniela Reinehr,SC,PL,0.787
+Zé Trovão,SC,PL,0.8418
+Julia Zanatta,SC,PL,0.9342
+Thiago de Joaldo,SE,REPUBLICANOS,0.1873
+Delegada Katarina,SE,PSD,-0.0398
+Icaro de Valmir,SE,REPUBLICANOS,0.287
+Yandra Moura,SE,UNIÃO,0.0568
+Delegada Adriana Accorsi,GO,PT,-0.7046
+Lêda Borges,GO,REPUBLICANOS,0.1053
+Jeferson Rodrigues,GO,PSDB,0.0702
+Gustavo Gayer,GO,PL,0.8862
+Silvye Alves,GO,UNIÃO,0.3375
+Dr. Ismael Alexandrino,GO,PSD,0.216
+Daniel Agrobom,GO,PSD,0.484
+Marussa Boldrin,GO,REPUBLICANOS,0.2308
+Dorinaldo Malafaia,AP,PDT,-0.4575
+Cabo Gilberto Silva,PB,PL,0.8338
+Alfredo Gaspar,AL,PL,0.5891
+Josenildo,AP,PDT,-0.358
+Luciano Amaral,AL,PSD,-0.2322
+Daniel Barbosa,AL,PP,-0.3296
+Delegado Fabio Costa,AL,PP,0.5593
+Murilo Galdino,PB,REPUBLICANOS,-0.0465
+Mersinho Lucena,PB,PSD,0.0042
+Rafael Brito,AL,MDB,-0.1376
+Gerlen Diniz,AC,PP,0.4165
+Roberto Duarte,AC,REPUBLICANOS,0.3816
+Coronel Ulysses,AC,UNIÃO,0.5856
+Meire Serafim,AC,UNIÃO,-0.2279
+Zezinho Barbary,AC,PP,0.0131
+Abilio Brunini,MT,PL,0.6985
+Coronel Assis,MT,PL,0.7032
+Coronel Fernanda,MT,PL,0.6692
+Amália Barros,MT,PL,0.7706
+Thiago Flores,RO,UNIÃO,0.4488
+Tarcísio Motta,RJ,PSOL,-0.7027
+Marcelo Crivella,RJ,REPUBLICANOS,0.1075
+Washington Quaquá,RJ,PT,-0.6989
+Dimas Gadelha,RJ,PT,-0.7493
+Dani Cunha,RJ,PL,0.1766
+Marcos Tavares,RJ,PDT,-0.31
+Bandeira de Mello,RJ,PV,-0.6106
+Reimont,RJ,PT,-0.7809
+Max Lemos,RJ,UNIÃO,-0.2653
+Cristiane Lopes,RO,PODE,0.3969
+Maurício Carvalho,RO,UNIÃO,0.4404
+Dr. Fernando Máximo,RO,PL,0.6415
+General Pazuello,RJ,PL,0.6711
+Bebeto,RJ,PP,0.024
+Roberto Monteiro Pai,RJ,PL,0.654
+Dr. Daniel Soranz,RJ,PSD,-0.2559
+Pastor Henrique Vieira,RJ,PSOL,-0.7518
+Luciano Vieira,RJ,PSDB,0.1563
+Murillo Gouvea,RJ,PSDB,0.0336
+Sargento Portugal,RJ,PODE,0.3131
+Delegado Ramagem,RJ,PL,0.829
+Rosângela Reis,MG,PL,0.4788
+Sargento Gonçalves,RN,PL,0.8192
+Nely Aquino,MG,PODE,-0.065
+Duda Salabert,MG,PSOL,-0.706
+Robinson Faria,RN,PP,0.093
+Delegada Ione,MG,PL,0.2416
+Rafael Simoes,MG,UNIÃO,0.3128
+Paulinho Freire,RN,UNIÃO,0.3229
+Mauricio do Vôlei,MG,PL,0.7265
+Dandara,MG,PT,-0.7435
+Pedro Aihara,MG,PP,0.1742
+Samuel Viana,MG,UNIÃO,0.1218
+Ana Pimentel,MG,PT,-0.7791
+Ricardo Salles,SP,NOVO,0.9065
+Marcelo Lima,SP,PSB,-0.3495
+Bruno Ganem,SP,PODE,0.0069
+Marina Silva,SP,REDE,-0.8089
+Antonio Carlos Rodrigues,SP,PODE,0.2664
+Guilherme Boulos,SP,PSOL,-0.7149
+Juliana Cardoso,SP,PT,-0.7339
+Rodrigo Gambale,SP,PODE,-0.0262
+Delegado Bruno Lima,SP,PODE,0.1145
+Sônia Guajajara,SP,PSOL,-0.7795
+Rosangela Moro,SP,PL,0.672
+Erika Hilton,SP,PSOL,-0.7405
+Felipe Becari,SP,PODE,-0.1179
+Mauricio Neves,SP,PP,0.1415
+Marangoni,SP,PODE,0.0807
+Delegado da Cunha,SP,UNIÃO,0.2883
+Paulo Alexandre Barbosa,SP,PSD,0.1716
+Simone Marquetto,SP,PP,0.2753
+Delegado Palumbo,SP,PODE,0.676
+Fábio Teruel,SP,MDB,0.2802
+Delegado Paulo Bilynskyj,SP,PL,0.829
+Mario Frias,SP,PL,0.8387
+Fernanda Pessoa,CE,PSD,0.0189
+André Fernandes,CE,PL,0.7902
+Luiz Gastão,CE,PSD,0.0423
+Yury Bruno,CE,MDB,-0.0177
+Matheus Noronha,CE,PL,0.4743
+Lucas Ramos,PE,PSB,-0.4494
+Eriberto Medeiros,PE,PSB,-0.3929
+Guilherme Uchoa,PE,PSD,-0.2406
+Clarissa Tércio,PE,PP,0.7112
+Coronel Meira,PE,PL,0.7213
+Pedro Campos,PE,PSB,-0.5926
+Maria Arraes,PE,PSB,-0.5944
+Lula da Fonte,PE,PP,-0.017
+Iza Arruda,PE,MDB,-0.1721
+Dilvanda Faro,PA,PT,-0.7691
+Henderson Pinto,PA,UNIÃO,0.0824
+Delegado Caveira,PA,PL,0.8221
+Dra. Alessandra Haber,PA,PODE,0.0102
+Antônio Doido,PA,MDB,0.0923
+Andreia Siqueira,PA,PSB,-0.0713
+Keniston Braga,PA,MDB,-0.0271
+Fábio Macedo,MA,PODE,-0.1231
+Tadeu Veneri,PR,PT,-0.7712
+Beto Richa,PR,PSDB,0.0936
+Tião Medeiros,PR,PP,0.2297
+Paulo Litro,PR,UNIÃO,0.1802
+Duarte Jr.,MA,AVANTE,-0.2298
+Márcio Honaiser,MA,SOLIDARIEDADE,-0.1582
+Dr. Francisco,PI,PT,-0.7079
+Detinha,MA,PL,0.455
+Capitão Alden,BA,PL,0.7065
+Diego Coronel,BA,REPUBLICANOS,-0.0527
+Dal Barreto,BA,UNIÃO,0.029
+Roberta Roma,BA,PL,0.6772
+Ricardo Maia,BA,MDB,-0.0995
+Rogéria Santos,BA,REPUBLICANOS,0.1484
+Ivoneide Caetano,BA,PT,-0.7417
+Jadyel Alencar,PI,REPUBLICANOS,-0.0936
+Beto Preto,PR,PSD,0.1247
+Castro Neto,PI,MDB,-0.1308
+Florentino Neto,PI,PT,-0.7687
+Delegado Matheus Laiola,PR,UNIÃO,-0.0255
+Geraldo Mendes,PR,UNIÃO,0.1559
+Neto Carletto,BA,AVANTE,-0.0474
+Carol Dartora,PR,PT,-0.7519
+Deltan Dallagnol,PR,PODE,0.6951
+Padovani,PR,PP,0.4635
+Amanda Gentil,MA,PP,-0.0587
+Gabriel Nunes,BA,PSD,-0.1918
+Fausto Jr.,AM,UNIÃO,0.0407
+Saullo Vianna,AM,MDB,0.0011
+Adail Filho,AM,MDB,0.1011
+Amom Mandel,AM,REPUBLICANOS,0.1598
+Priscila Costa,CE,PL,0.8294
+Paulo Lemos,AP,PT,-0.7499
+Rafael Fera,RO,PODE,0.3046
+Danilo Forte,CE,PP,0.0992
+Julio Arcoverde,PI,PP,0.0479
+Fausto Pinato,SP,UNIÃO,0.1789
+Bacelar,BA,PV,-0.6868
+Felipe Carreras,PE,PSB,-0.2427
+Arlindo Chinaglia,SP,PT,-0.7992
+Celso Russomanno,SP,REPUBLICANOS,0.2029
+Pompeo de Mattos,RS,PDT,-0.3827
+Alberto Fraga,DF,PL,0.6646
+Rui Falcão,SP,PT,-0.7873
+Osmar Terra,RS,PL,0.6579
+Benedita da Silva,RJ,PT,-0.7746
+Dilceu Sperafico,PR,PP,0.2566
+Ricardo Barros,PR,PP,0.2598
+Renildo Calheiros,PE,PCdoB,-0.7113
+Roseana Sarney,MA,MDB,-0.2269
+Sérgio Brito,BA,PSD,0.1443
+Luiz Couto,PB,PT,-0.7591
+Wellington Roberto,PB,PSD,0.5447
+Wilson Santiago,PB,REPUBLICANOS,0.1457
+Alice Portugal,BA,PCdoB,-0.7174
+Daniel Almeida,BA,PCdoB,-0.7083
+Elcione Barbalho,PA,MDB,-0.0296
+José Priante,PA,MDB,0.063
+Raimundo Santos,PA,PSD,0.3169
+Átila Lins,AM,PSD,0.1045
+Leonardo Monteiro,MG,PT,-0.7648
+Mário Heringer,MG,PDT,-0.4313
+Odair Cunha,MG,PT,-0.7501
+Patrus Ananias,MG,PT,-0.7974
+Reginaldo Lopes,MG,PT,-0.7661
+Chico Alencar,RJ,PSOL,-0.7117
+Julio Lopes,RJ,PP,0.1198
+Carlos Sampaio,SP,PSD,0.2567
+Gilberto Nascimento,SP,PODE,0.2599
+Jefferson Campos,SP,PL,0.5258
+Júlio Cesar,PI,PSD,0.1229
+Silas Câmara,AM,REPUBLICANOS,0.2087
+Rubens Otoni,GO,PT,-0.7784
+Geraldo Resende,MS,UNIÃO,-0.0854
+Vander Loubet,MS,PT,-0.7595
+Giacobo,PR,PL,0.5614
+Maria do Rosário,RS,PT,-0.7699
+Paulo Pimenta,RS,PT,-0.8073
+Mendonça Filho,PE,PL,0.3839
+Eunício Oliveira,CE,MDB,0.0046
+Damião Feliciano,PB,UNIÃO,-0.2812
+Luciano Bivar,PE,MDB,0.0094
+Claudio Cajado,BA,PP,0.2083
+João Leão,BA,PP,0.0423
+José Rocha,BA,UNIÃO,0.1781
+Paulo Magalhães,BA,PSD,0.0949
+Lincoln Portela,MG,PL,0.6004
+Aécio Neves,MG,PSDB,0.1584
+Alberto Mourão,SP,MDB,0.0155
+Luiza Erundina,SP,PSOL,-0.8201
+Jandira Feghali,RJ,PCdoB,-0.7143
+Laura Carneiro,RJ,PSD,-0.2463
+Lindbergh Farias,RJ,PT,-0.8039
+Leo Prates,BA,REPUBLICANOS,-0.3228
+Márcio Jerry,MA,PCdoB,-0.7138
+Clodoaldo Magalhães,PE,PV,-0.7733
+Waldemar Oliveira,PE,AVANTE,-0.0656
+Leur Lomanto Júnior,BA,UNIÃO,0.1996
+Eduardo Bolsonaro,SP,PL,0.7626
+Fernando Monteiro,PE,PSD,0.1201
+Stefano Aguiar,MG,PSD,0.2189
+Lafayette de Andrada,MG,PL,0.2458
+Cobalchini,SC,MDB,0.3954
+Ismael,SC,PL,0.3685

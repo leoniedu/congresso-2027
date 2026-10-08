@@ -10,6 +10,7 @@ Cálculos do post ["O Congresso de 2027: mesma Câmara, outro Senado"](https://w
 - `data/wnominate_camara_2019_2026.csv`: o mesmo ajuste só com a Câmara (escala usada para a Câmara; r = 0,999 com a anterior para deputados; erros-padrão com 3 réplicas, indicativos).
 - `R/figs.R`: histograma, distribuição relativa por decis, densidade relativa (kernel sobre os ranks relativos, Handcock & Morris) e a comparação modelo × rótulo partidário para os previstos, Câmara 57ª contra 58ª; escreve `figures/`, `results/distribuicao_relativa.csv` e `results/densidade_relativa.csv`.
 - `R/reldist.R`: distribuição relativa com o pacote `reldist` (Handcock & Morris): densidade relativa (método GAM), entropia e índices de polarização relativa (MRP, LRP, URP), com intervalos por simulação dos previstos; escreve `results/reldist_indices.csv` e `results/reldist_curva.csv`.
+- `R/reldist_casas.R`: Senado em relação à Câmara na escala conjunta (2023–26 e 2027) e cada casa em 2027 em relação a 2023–26: densidade relativa, índices de polarização; `data/camara_2023_26_escala_conjunta.csv` e as colunas `dim1_conjunta`/`erro_conjunta` em `camara_2027.csv` são as posições da Câmara nessa escala.
 - `R/post.R`: medianas, pivôs de 3/5, custo de governar (soma das distâncias ao centro até o limiar; quem está além do governo do próprio lado conta zero), com o erro de previsão simulado. Escreve `results/` e `figures/`.
 
 ```r
