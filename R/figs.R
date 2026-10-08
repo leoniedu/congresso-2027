@@ -63,3 +63,30 @@ p3 <- ggplot(rk, aes(x = r)) + geom_hline(yintercept = 1, colour = "#8a8a86", li
        subtitle = "g(r) > 1: a 58ª tem mais deputados que a 57ª naquele trecho. Kernel (largura 0,05) sobre os ranks relativos, com reflexão nas bordas;\nmédia de 2.000 sorteios com resíduos empíricos por bloco; faixa: IC 95 % pontual. Marcas: mediana de cada partido na 57ª (n ≥ 8).") +
   theme_minimal(base_size = 10) + theme(panel.grid.minor = element_blank(), plot.title.position = "plot")
 ggsave("figures/densidade_relativa_57_58.png", p3, width = 9, height = 5, dpi = 200, bg = "white")
+
+# comparison: model (bloc residual draws) vs party-only predictions for the newcomers:
+#  (a) party median, point; (b) draws from the 57th's members of the same party (empirical party distribution)
+pos_sets <- list()
+pos_sets[["modelo + resíduos empíricos por bloco"]] <- function() draw(cam27)
+cam27[, partido := gsub(" ", "", toupper(partido))]
+pm <- cam23[, .(x = median(dim1)), by = partido]
+party_members <- split(cam23$dim1, cam23$partido)
+x_pm <- cam27$dim1; x_pm[cam27$prev] <- pm$x[match(cam27$partido[cam27$prev], pm$partido)]; x_pm[is.na(x_pm)] <- cam27$dim1[is.na(x_pm)]
+pos_sets[["mediana do partido (ponto)"]] <- function() x_pm
+pos_sets[["sorteio entre os deputados do partido na 57ª"]] <- function() { x <- cam27$dim1
+  for (p in unique(cam27$partido[cam27$prev])) { i <- which(cam27$prev & cam27$partido == p); if (!is.null(party_members[[p]])) x[i] <- sample(party_members[[p]], length(i), replace = TRUE) }
+  x }
+cmp <- rbindlist(lapply(names(pos_sets), function(nm) { s <- replicate(if (nm == "mediana do partido (ponto)") 1 else 1000, kd(pos_sets[[nm]]()))
+  if (is.null(dim(s))) s <- matrix(s, ncol = 1); data.table(previsao = nm, r = grid, g = rowMeans(s), lo = apply(s, 1, quantile, .025), hi = apply(s, 1, quantile, .975)) }))
+cmp[, previsao := factor(previsao, names(pos_sets))]
+p4 <- ggplot(cmp, aes(x = r, y = g, colour = previsao, fill = previsao)) + geom_hline(yintercept = 1, colour = "#8a8a86", linetype = "22") +
+  geom_ribbon(data = cmp[previsao != "mediana do partido (ponto)"], aes(ymin = lo, ymax = hi), alpha = 0.12, colour = NA) + geom_line(linewidth = 0.9) +
+  geom_segment(data = part, aes(x = r, xend = r, y = 0, yend = 0.07 * max(cmp$hi) * 1.05), inherit.aes = FALSE, colour = "#8a8a86", linewidth = 0.4) +
+  ggrepel::geom_text_repel(data = part, aes(x = r, y = 0.07 * max(cmp$hi) * 1.05, label = partido), inherit.aes = FALSE, size = 2.6, colour = "#52514e", direction = "x", nudge_y = 0.12, segment.colour = "#d9d9d6", segment.size = 0.3, min.segment.length = 0, seed = 1) +
+  scale_colour_manual(values = c("#1c5cab", "#c2410c", "#eda100"), name = "os 180 previstos entram como:") + scale_fill_manual(values = c("#1c5cab", "#c2410c", "#eda100"), guide = "none") +
+  scale_x_continuous(breaks = marcas$r, labels = sprintf("%.2f\n(x = %.2f)", marcas$r, marcas$x)) + scale_y_continuous(limits = c(0, max(cmp$hi) * 1.05), expand = c(0, 0)) +
+  labs(x = "posição relativa r na distribuição da 57ª", y = "densidade relativa g(r)", title = "Densidade relativa da 58ª: modelo contra rótulo partidário",
+       subtitle = "Os 333 medidos são os mesmos nas três curvas; só os 180 previstos mudam. Faixas: IC 95 % pontual (1.000 sorteios).\nMarcas: mediana de cada partido na 57ª.") +
+  theme_minimal(base_size = 10) + theme(legend.position = "bottom", panel.grid.minor = element_blank(), plot.title.position = "plot") + guides(colour = guide_legend(nrow = 1))
+ggsave("figures/densidade_relativa_comparacao.png", p4, width = 9, height = 5.4, dpi = 200, bg = "white")
+fwrite(cmp, "results/densidade_relativa_comparacao.csv")
