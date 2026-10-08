@@ -14,3 +14,11 @@ source("R/post.R")
 ```
 
 Escalas, modelo de previsão e validação: projeto `bancada28` (não publicado), que gera os arquivos em `data/`.
+
+## Avaliação das previsões (a fazer a partir de 2027)
+
+As colunas `base_partido`, `base_coligacao` e `base_casa` em `data/camara_2027.csv` e `data/senado_2027.csv` são os comparadores, fixados junto com as previsões: mediana do partido na escala 2019–2026 (na Câmara, deputados do partido; no Senado, senadores do partido com n ≥ 3, senão todos os parlamentares), mediana da coligação presidencial de 2026 (Lula / Flávio / nenhuma) e mediana da casa.
+
+Protocolo: quando houver votações suficientes de 2027, estimar o W-NOMINATE agrupando 2019–2026 e 2027+ (mesmas pontes), de modo que as novas posições fiquem na escala em que as previsões foram feitas; depois, só para as linhas com `origem` começando em "previsto", comparar `dim1` e cada `base_*` com a posição medida: RMSE, R² fora da amostra e correlação de Spearman, no total e dentro de cada partido com n ≥ 10. A previsão vale alguma coisa se bater `base_partido`; na validação com os novatos de 2023, a margem foi de RMSE 0,28 (partido) para 0,25 (modelo), e a diferença esteve concentrada no PL.
+
+Referência de hoje, nos membros com posição medida: RMSE da mediana do partido 0,22 na Câmara e 0,22 no Senado; da coligação 0,24 e 0,29; da casa 0,50 e 0,51. O modelo afasta os previstos da mediana do partido em 0,10 (RMSE) na Câmara.
