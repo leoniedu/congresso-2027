@@ -47,12 +47,19 @@ rk <- data.table(r = grid, g = rowMeans(sim), lo = apply(sim, 1, quantile, .025)
 rk[, x57 := quantile(cam23$dim1, r)]
 fwrite(rk, "results/densidade_relativa.csv")
 marcas <- data.table(r = c(0.05, 0.25, 0.5, 0.75, 0.95)); marcas[, x := quantile(cam23$dim1, r)]
+# party medians in the 57th, placed on the relative-rank axis
+cam23[, partido := gsub(" ", "", toupper(partido))]
+part <- cam23[, .(n = .N, x = median(dim1)), by = partido][n >= 8][, r := F57(x)][order(r)]
+part[, y := 0.07 * max(rk$hi) * 1.05]
 p3 <- ggplot(rk, aes(x = r)) + geom_hline(yintercept = 1, colour = "#8a8a86", linetype = "22") +
   geom_ribbon(aes(ymin = lo, ymax = hi), fill = "#1c5cab", alpha = 0.18) + geom_line(aes(y = g), colour = "#1c5cab", linewidth = 0.9) +
+  geom_segment(data = part, aes(x = r, xend = r, y = 0, yend = y), colour = "#8a8a86", linewidth = 0.4) +
+  ggrepel::geom_text_repel(data = part, aes(x = r, y = y, label = partido), size = 2.6, colour = "#52514e", direction = "x", nudge_y = 0.12,
+                           segment.colour = "#d9d9d6", segment.size = 0.3, min.segment.length = 0, seed = 1) +
   scale_x_continuous(breaks = marcas$r, labels = sprintf("%.2f\n(x = %.2f)", marcas$r, marcas$x)) +
   scale_y_continuous(limits = c(0, max(rk$hi) * 1.05), expand = c(0, 0)) +
   labs(x = "posição relativa r na distribuição da 57ª (quantil; entre parênteses, a posição na escala)", y = "densidade relativa g(r)",
        title = "Densidade relativa da 58ª em relação à 57ª (Câmara)",
-       subtitle = "g(r) > 1: a 58ª tem mais deputados que a 57ª naquele trecho. Kernel (largura 0,05) sobre os ranks relativos, com reflexão nas bordas;\nmédia de 2.000 sorteios com resíduos empíricos por bloco; faixa: IC 95 % pontual.") +
+       subtitle = "g(r) > 1: a 58ª tem mais deputados que a 57ª naquele trecho. Kernel (largura 0,05) sobre os ranks relativos, com reflexão nas bordas;\nmédia de 2.000 sorteios com resíduos empíricos por bloco; faixa: IC 95 % pontual. Marcas: mediana de cada partido na 57ª (n ≥ 8).") +
   theme_minimal(base_size = 10) + theme(panel.grid.minor = element_blank(), plot.title.position = "plot")
 ggsave("figures/densidade_relativa_57_58.png", p3, width = 9, height = 5, dpi = 200, bg = "white")
