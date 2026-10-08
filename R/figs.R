@@ -36,3 +36,23 @@ p2 <- ggplot(rd, aes(x = decil, y = g)) + geom_hline(yintercept = 1, colour = "#
        subtitle = "1 = mesma proporção que a 57ª naquele decil. Barras: média de 2.000 sorteios com resíduos empíricos por bloco; traços: IC 95 %.") +
   theme_minimal(base_size = 10) + theme(panel.grid.minor = element_blank(), panel.grid.major.x = element_blank(), plot.title.position = "plot", axis.text.x = element_text(size = 7))
 ggsave("figures/distribuicao_relativa_57_58.png", p2, width = 9, height = 5, dpi = 200, bg = "white")
+
+# relative density as in Handcock & Morris: kernel density of the relative ranks r = F57(x58) on [0, 1],
+# reflected at the boundaries; averaged over draws of the predicted positions; pointwise 95% band.
+grid <- seq(0.005, 0.995, by = 0.01)
+kd <- function(x) { r <- F57(x); r <- pmin(pmax(r, 1e-4), 1 - 1e-4); rr <- c(-r, r, 2 - r)
+  d <- density(rr, bw = 0.05, from = 0, to = 1, n = length(grid)); 3 * d$y }          # reflection: density of r on [0,1] is 3x the mirrored density
+sim <- replicate(2000, kd(draw(cam27)))
+rk <- data.table(r = grid, g = rowMeans(sim), lo = apply(sim, 1, quantile, .025), hi = apply(sim, 1, quantile, .975))
+rk[, x57 := quantile(cam23$dim1, r)]
+fwrite(rk, "results/densidade_relativa.csv")
+marcas <- data.table(r = c(0.05, 0.25, 0.5, 0.75, 0.95)); marcas[, x := quantile(cam23$dim1, r)]
+p3 <- ggplot(rk, aes(x = r)) + geom_hline(yintercept = 1, colour = "#8a8a86", linetype = "22") +
+  geom_ribbon(aes(ymin = lo, ymax = hi), fill = "#1c5cab", alpha = 0.18) + geom_line(aes(y = g), colour = "#1c5cab", linewidth = 0.9) +
+  scale_x_continuous(breaks = marcas$r, labels = sprintf("%.2f\n(x = %.2f)", marcas$r, marcas$x)) +
+  scale_y_continuous(limits = c(0, max(rk$hi) * 1.05), expand = c(0, 0)) +
+  labs(x = "posição relativa r na distribuição da 57ª (quantil; entre parênteses, a posição na escala)", y = "densidade relativa g(r)",
+       title = "Densidade relativa da 58ª em relação à 57ª (Câmara)",
+       subtitle = "g(r) > 1: a 58ª tem mais deputados que a 57ª naquele trecho. Kernel (largura 0,05) sobre os ranks relativos, com reflexão nas bordas;\nmédia de 2.000 sorteios com resíduos empíricos por bloco; faixa: IC 95 % pontual.") +
+  theme_minimal(base_size = 10) + theme(panel.grid.minor = element_blank(), plot.title.position = "plot")
+ggsave("figures/densidade_relativa_57_58.png", p3, width = 9, height = 5, dpi = 200, bg = "white")

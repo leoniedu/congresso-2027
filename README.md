@@ -8,7 +8,7 @@ Cálculos do post ["O Congresso de 2027: mesma Câmara, outro Senado"](https://w
 - `data/governos.csv`: posição das lideranças de governo (Lula 2023–26; Bolsonaro 2019–22) em cada escala.
 - `data/wnominate_camara_senado_2019_2026.csv`: o ajuste agrupado completo (W-NOMINATE, 2 dimensões, Câmara + Senado, legislaturas 56ª e 57ª, 1.118 linhas × 3.681 votações): deputados, senadores e as orientações de liderança como pseudo-legisladores (`pseudo = TRUE`; Governo, Maioria, Minoria e Oposição separados em 1º de janeiro de 2023). Erros-padrão por bootstrap (50 réplicas). É a escala usada para o Senado. Só a dimensão 1 é comparável entre as casas.
 - `data/wnominate_camara_2019_2026.csv`: o mesmo ajuste só com a Câmara (escala usada para a Câmara; r = 0,999 com a anterior para deputados; erros-padrão com 3 réplicas, indicativos).
-- `R/figs.R`: histograma e distribuição relativa (decis da 57ª) da Câmara, 57ª contra 58ª; escreve `figures/` e `results/distribuicao_relativa.csv`.
+- `R/figs.R`: histograma, distribuição relativa por decis e densidade relativa (kernel sobre os ranks relativos, Handcock & Morris) da Câmara, 57ª contra 58ª; escreve `figures/`, `results/distribuicao_relativa.csv` e `results/densidade_relativa.csv`.
 - `R/post.R`: medianas, pivôs de 3/5, custo de governar (soma das distâncias ao centro até o limiar; quem está além do governo do próprio lado conta zero), com o erro de previsão simulado. Escreve `results/` e `figures/`.
 
 ```r
