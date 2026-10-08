@@ -1,82 +1,82 @@
-uf,nome,partido,colig,assento,origem,dim1,erro,base_partido,base_coligacao,base_casa
-GO,GUSTAVO GAYER,PL,Flavio,"eleito, ex-deputado",medido 2019–26,0.886,0,0.4955,0.4955,0.0727
-ES,Magno Malta,PL,Flavio,continua (classe 2023–31),medido 2019–26,0.883,0,0.4955,0.4955,0.0727
-SC,CAROL DE TONI,PL,Flavio,"eleito, ex-deputado",medido 2019–26,0.823,0,0.4955,0.4955,0.0727
-RJ,CARLOS JORDY,PL,Flavio,"eleito, ex-deputado",medido 2019–26,0.793,0,0.4955,0.4955,0.0727
-DF,BIA KICIS,PL,Flavio,"eleito, ex-deputado",medido 2019–26,0.781,0,0.4955,0.4955,0.0727
-RS,SANDERSON,PL,Flavio,"eleito, ex-deputado",medido 2019–26,0.768,0,0.4955,0.4955,0.0727
-PR,FILIPE BARROS,PL,Flavio,"eleito, ex-deputado",medido 2019–26,0.753,0,0.4955,0.4955,0.0727
-RO,Jaime Bagattoli,PL,Flavio,continua (classe 2023–31),medido 2019–26,0.712,0,0.4955,0.4955,0.0727
-GO,Wilder Morais,PL,Flavio,continua (classe 2023–31),medido 2019–26,0.707,0,0.4955,0.4955,0.0727
-RR,NICOLETTI,PL,Flavio,"eleito, ex-deputado",medido 2019–26,0.7,0,0.4955,0.4955,0.0727
-MT,ZÉ MEDEIROS,PL,Flavio,"eleito, ex-deputado",medido 2019–26,0.663,0,0.4955,0.4955,0.0727
-SP,ANDRÉ DO PRADO,PL,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.646,0.221,0.4955,0.4955,0.0727
-RO,DR. FERNANDO MÁXIMO,PL,Flavio,"eleito, ex-deputado",medido 2019–26,0.642,0,0.4955,0.4955,0.0727
-MS,CAPITÃO CONTAR,PL,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.642,0.221,0.4955,0.4955,0.0727
-DF,MICHELLE BOLSONARO,PL,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.639,0.221,0.4955,0.4955,0.0727
-RO,BRUNO SCHEID,PL,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.634,0.221,0.4955,0.4955,0.0727
-RN,Rogerio Marinho,PL,Flavio,continua (classe 2023–31),medido 2019–26,0.617,0,0.4955,0.4955,0.0727
-SC,CARLOS BOLSONARO,PL,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.606,0.221,0.4955,0.4955,0.0727
-SC,Jorge Seif,PL,Flavio,continua (classe 2023–31),medido 2019–26,0.605,0,0.4955,0.4955,0.0727
-MG,ALEX DINIZ,PL,Flavio,suplente assume (classe 2023–31),"previsto (partido, coligação)",0.58,0.234,0.4955,0.4955,0.0727
-MS,REINALDO AZAMBUJA,PL,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.574,0.221,0.4955,0.4955,0.0727
-MG,DOMINGOS SÁVIO,PL,Flavio,"eleito, ex-deputado",medido 2019–26,0.548,0,0.4955,0.4955,0.0727
-SP,Astronauta Marcos Pontes,PL,Flavio,continua (classe 2023–31),medido 2019–26,0.519,0,0.4955,0.4955,0.0727
-AC,MARCIO BITTAR,PL,Flavio,reeleito,medido 2019–26,0.501,0,0.4955,0.4955,0.0727
-RJ,CARLOS PORTINHO,PL,Flavio,reeleito,medido 2019–26,0.395,0,0.4955,0.4955,0.0727
-TO,EDUARDO GOMES,PL,Flavio,reeleito,medido 2019–26,0.352,0,0.4955,0.4955,0.0727
-MT,Wellington Fagundes,PL,Flavio,continua (classe 2023–31),medido 2019–26,0.316,0,0.4955,0.4955,0.0727
-PB,Efraim Filho,PL,Flavio,continua (classe 2023–31),medido 2019–26,0.241,0,0.4955,0.4955,0.0727
-PB,JOAO AZEVÊDO,PSB,Lula,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.227,0.221,-0.1782,-0.4337,0.0727
-ES,RENATO CASAGRANDE,PSB,Lula,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.28,0.221,-0.1782,-0.4337,0.0727
-MA,Ana Paula Lobato,PSB,Lula,continua (classe 2023–31),medido 2019–26,-0.318,0,-0.1782,-0.4337,0.0727
-CE,CID GOMES,PSB,Lula,reeleito,medido 2019–26,-0.321,0,-0.1782,-0.4337,0.0727
-PE,Teresa Leitão,PT,Lula,continua (classe 2023–31),medido 2019–26,-0.549,0,-0.6365,-0.4337,0.0727
-BA,JAQUES WAGNER,PT,Lula,reeleito,medido 2019–26,-0.584,0,-0.6365,-0.4337,0.0727
-RN,SAMANDA DE LULA,PT,Lula,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.616,0.221,-0.6365,-0.4337,0.0727
-PE,HUMBERTO COSTA,PT,Lula,reeleito,medido 2019–26,-0.656,0,-0.6365,-0.4337,0.0727
-SE,ROGERIO CARVALHO,PT,Lula,reeleito,medido 2019–26,-0.663,0,-0.6365,-0.4337,0.0727
-CE,Camilo Santana,PT,Lula,continua (classe 2023–31),"previsto (partido, coligação)",-0.673,0.234,-0.6365,-0.4337,0.0727
-BA,RUI COSTA,PT,Lula,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.681,0.221,-0.6365,-0.4337,0.0727
-MG,MARÍLIA CAMPOS,PT,Lula,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.683,0.221,-0.6365,-0.4337,0.0727
-CE,LUIZIANNE,REDE,Lula,"eleito, ex-deputado",medido 2019–26,-0.799,0,-0.589,-0.4337,0.0727
-PE,MARÍLIA ARRAES,PDT,Lula,"eleito, ex-deputado",medido 2019–26,-0.8,0,-0.3061,-0.4337,0.0727
-PA,Beto Faro,PT,Lula,continua (classe 2023–31),medido 2019–26,-0.805,0,-0.6365,-0.4337,0.0727
-SP,GUILHERME DERRITE,PP,nenhuma,"eleito, ex-deputado",medido 2019–26,0.778,0,0.2759,0.0715,0.0727
-ES,EVAIR DE MELO,REPUBLICANOS,nenhuma,"eleito, ex-deputado",medido 2019–26,0.746,0,0.5209,0.0715,0.0727
-MA,LAHESIO BONFIM,NOVO,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.731,0.221,0.634,0.0715,0.0727
-PR,DELTAN DALLAGNOL,NOVO,nenhuma,"eleito, ex-deputado",medido 2019–26,0.695,0,0.634,0.0715,0.0727
-RS,MARCEL VAN HATTEM,NOVO,nenhuma,"eleito, ex-deputado",medido 2019–26,0.656,0,0.634,0.0715,0.0727
-RS,Hamilton Mourão,REPUBLICANOS,nenhuma,continua (classe 2023–31),medido 2019–26,0.616,0,0.5209,0.0715,0.0727
-DF,Damares Alves,REPUBLICANOS,nenhuma,continua (classe 2023–31),medido 2019–26,0.521,0,0.5209,0.0715,0.0727
-MS,Tereza Cristina,PP,nenhuma,continua (classe 2023–31),medido 2019–26,0.448,0,0.2759,0.0715,0.0727
-RR,Dr. Hiran,PP,nenhuma,continua (classe 2023–31),medido 2019–26,0.4,0,0.2759,0.0715,0.0727
-MA,FUFUCA,PP,nenhuma,"eleito, ex-deputado",medido 2019–26,0.281,0,0.2759,0.0715,0.0727
-SE,Laércio Oliveira,PP,nenhuma,continua (classe 2023–31),medido 2019–26,0.261,0,0.2759,0.0715,0.0727
-AC,Alan Rick,REPUBLICANOS,nenhuma,continua (classe 2023–31),medido 2019–26,0.255,0,0.5209,0.0715,0.0727
-MT,MAURO MENDES,UNIÃO,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.249,0.221,0.1775,0.0715,0.0727
-AL,ARTHUR LIRA,PP,nenhuma,"eleito, ex-deputado",medido 2019–26,0.244,0,0.2759,0.0715,0.0727
-AL,MARINA JHC,PSDB,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.224,0.221,0.0342,0.0715,0.0727
-RJ,Romário,S/PARTIDO,nenhuma,continua (classe 2023–31),medido 2019–26,0.217,0,-0.3565,0.0715,0.0727
-TO,ALEXANDRE GUIMARÃES,MDB,nenhuma,"eleito, ex-deputado",medido 2019–26,0.212,0,-0.0841,0.0715,0.0727
-AM,PLINIO VALÉRIO,PSDB,nenhuma,reeleito,medido 2019–26,0.182,0,0.0342,0.0715,0.0727
-AP,RAYSSA FURLAN,PODE,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.152,0.221,0.0071,0.0715,0.0727
-PR,LUIS FELIPE CUNHA,UNIÃO,nenhuma,suplente assume (classe 2023–31),"previsto (partido, coligação)",0.152,0.234,0.1775,0.0715,0.0727
-PI,JÚLIO CÉSAR O JULIM DO LULA,PSD,nenhuma,"eleito, ex-deputado",medido 2019–26,0.123,0,0.0366,0.0715,0.0727
-AP,LUCAS BARRETO,PSD,nenhuma,reeleito,medido 2019–26,0.105,0,0.0366,0.0715,0.0727
-AP,Davi Alcolumbre,UNIÃO,nenhuma,continua (classe 2023–31),medido 2019–26,0.084,0,0.1775,0.0715,0.0727
-AC,MARA ROCHA,REPUBLICANOS,nenhuma,"eleito, ex-deputado",medido 2019–26,0.08,0,0.5209,0.0715,0.0727
-GO,GRACINHA CAIADO,UNIÃO,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.062,0.221,0.1775,0.0715,0.0727
-TO,Professora Dorinha Seabra,UNIÃO,nenhuma,continua (classe 2023–31),medido 2019–26,0.049,0,0.1775,0.0715,0.0727
-RN,STYVENSON VALENTIM,PODE,nenhuma,reeleito,medido 2019–26,0.007,0,0.0071,0.0715,0.0727
-PA,CHICÃO,UNIÃO,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.001,0.221,0.1775,0.0715,0.0727
-RR,TERESA SURITA,MDB,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.004,0.221,-0.0841,0.0715,0.0727
-AM,EDUARDO BRAGA,MDB,nenhuma,reeleito,medido 2019–26,-0.02,0,-0.0841,0.0715,0.0727
-AL,Renan Filho,MDB,nenhuma,continua (classe 2023–31),"previsto (partido, coligação)",-0.028,0.234,-0.0841,0.0715,0.0727
-AM,Omar Aziz,PSD,nenhuma,continua (classe 2023–31),medido 2019–26,-0.056,0,0.0366,0.0715,0.0727
-PI,MARCELO CASTRO,MDB,nenhuma,reeleito,medido 2019–26,-0.056,0,-0.0841,0.0715,0.0727
-PA,HELDER,MDB,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.169,0.221,-0.0841,0.0715,0.0727
-SE,DELEGADO ALESSANDRO,MDB,nenhuma,reeleito,medido 2019–26,-0.203,0,-0.0841,0.0715,0.0727
-BA,Otto Alencar,PSD,nenhuma,continua (classe 2023–31),medido 2019–26,-0.213,0,0.0366,0.0715,0.0727
-PB,VENEZIANO,MDB,nenhuma,reeleito,medido 2019–26,-0.281,0,-0.0841,0.0715,0.0727
-PI,Jussara Lima,PSD,nenhuma,continua (classe 2023–31),medido 2019–26,-0.448,0,0.0366,0.0715,0.0727
+uf,nome,partido,bloco,colig,assento,origem,dim1,erro,base_partido,base_coligacao,base_casa
+GO,GUSTAVO GAYER,PL,direita,Flavio,"eleito, ex-deputado",medido 2019–26,0.886,0,0.4955,0.4955,0.0727
+ES,Magno Malta,PL,direita,Flavio,continua (classe 2023–31),medido 2019–26,0.883,0,0.4955,0.4955,0.0727
+SC,CAROL DE TONI,PL,direita,Flavio,"eleito, ex-deputado",medido 2019–26,0.823,0,0.4955,0.4955,0.0727
+RJ,CARLOS JORDY,PL,direita,Flavio,"eleito, ex-deputado",medido 2019–26,0.793,0,0.4955,0.4955,0.0727
+DF,BIA KICIS,PL,direita,Flavio,"eleito, ex-deputado",medido 2019–26,0.781,0,0.4955,0.4955,0.0727
+RS,SANDERSON,PL,direita,Flavio,"eleito, ex-deputado",medido 2019–26,0.768,0,0.4955,0.4955,0.0727
+PR,FILIPE BARROS,PL,direita,Flavio,"eleito, ex-deputado",medido 2019–26,0.753,0,0.4955,0.4955,0.0727
+RO,Jaime Bagattoli,PL,direita,Flavio,continua (classe 2023–31),medido 2019–26,0.712,0,0.4955,0.4955,0.0727
+GO,Wilder Morais,PL,direita,Flavio,continua (classe 2023–31),medido 2019–26,0.707,0,0.4955,0.4955,0.0727
+RR,NICOLETTI,PL,direita,Flavio,"eleito, ex-deputado",medido 2019–26,0.7,0,0.4955,0.4955,0.0727
+MT,ZÉ MEDEIROS,PL,direita,Flavio,"eleito, ex-deputado",medido 2019–26,0.663,0,0.4955,0.4955,0.0727
+SP,ANDRÉ DO PRADO,PL,direita,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.646,0.221,0.4955,0.4955,0.0727
+RO,DR. FERNANDO MÁXIMO,PL,direita,Flavio,"eleito, ex-deputado",medido 2019–26,0.642,0,0.4955,0.4955,0.0727
+MS,CAPITÃO CONTAR,PL,direita,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.642,0.221,0.4955,0.4955,0.0727
+DF,MICHELLE BOLSONARO,PL,direita,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.639,0.221,0.4955,0.4955,0.0727
+RO,BRUNO SCHEID,PL,direita,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.634,0.221,0.4955,0.4955,0.0727
+RN,Rogerio Marinho,PL,direita,Flavio,continua (classe 2023–31),medido 2019–26,0.617,0,0.4955,0.4955,0.0727
+SC,CARLOS BOLSONARO,PL,direita,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.606,0.221,0.4955,0.4955,0.0727
+SC,Jorge Seif,PL,direita,Flavio,continua (classe 2023–31),medido 2019–26,0.605,0,0.4955,0.4955,0.0727
+MG,ALEX DINIZ,PL,direita,Flavio,suplente assume (classe 2023–31),"previsto (partido, coligação)",0.58,0.234,0.4955,0.4955,0.0727
+MS,REINALDO AZAMBUJA,PL,direita,Flavio,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.574,0.221,0.4955,0.4955,0.0727
+MG,DOMINGOS SÁVIO,PL,direita,Flavio,"eleito, ex-deputado",medido 2019–26,0.548,0,0.4955,0.4955,0.0727
+SP,Astronauta Marcos Pontes,PL,direita,Flavio,continua (classe 2023–31),medido 2019–26,0.519,0,0.4955,0.4955,0.0727
+AC,MARCIO BITTAR,PL,direita,Flavio,reeleito,medido 2019–26,0.501,0,0.4955,0.4955,0.0727
+RJ,CARLOS PORTINHO,PL,direita,Flavio,reeleito,medido 2019–26,0.395,0,0.4955,0.4955,0.0727
+TO,EDUARDO GOMES,PL,direita,Flavio,reeleito,medido 2019–26,0.352,0,0.4955,0.4955,0.0727
+MT,Wellington Fagundes,PL,direita,Flavio,continua (classe 2023–31),medido 2019–26,0.316,0,0.4955,0.4955,0.0727
+PB,Efraim Filho,PL,direita,Flavio,continua (classe 2023–31),medido 2019–26,0.241,0,0.4955,0.4955,0.0727
+PB,JOAO AZEVÊDO,PSB,centro-esquerda,Lula,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.227,0.221,-0.1782,-0.4337,0.0727
+ES,RENATO CASAGRANDE,PSB,centro-esquerda,Lula,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.28,0.221,-0.1782,-0.4337,0.0727
+MA,Ana Paula Lobato,PSB,centro-esquerda,Lula,continua (classe 2023–31),medido 2019–26,-0.318,0,-0.1782,-0.4337,0.0727
+CE,CID GOMES,PSB,centro-esquerda,Lula,reeleito,medido 2019–26,-0.321,0,-0.1782,-0.4337,0.0727
+PE,Teresa Leitão,PT,esquerda,Lula,continua (classe 2023–31),medido 2019–26,-0.549,0,-0.6365,-0.4337,0.0727
+BA,JAQUES WAGNER,PT,esquerda,Lula,reeleito,medido 2019–26,-0.584,0,-0.6365,-0.4337,0.0727
+RN,SAMANDA DE LULA,PT,esquerda,Lula,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.616,0.221,-0.6365,-0.4337,0.0727
+PE,HUMBERTO COSTA,PT,esquerda,Lula,reeleito,medido 2019–26,-0.656,0,-0.6365,-0.4337,0.0727
+SE,ROGERIO CARVALHO,PT,esquerda,Lula,reeleito,medido 2019–26,-0.663,0,-0.6365,-0.4337,0.0727
+CE,Camilo Santana,PT,esquerda,Lula,continua (classe 2023–31),"previsto (partido, coligação)",-0.673,0.234,-0.6365,-0.4337,0.0727
+BA,RUI COSTA,PT,esquerda,Lula,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.681,0.221,-0.6365,-0.4337,0.0727
+MG,MARÍLIA CAMPOS,PT,esquerda,Lula,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.683,0.221,-0.6365,-0.4337,0.0727
+CE,LUIZIANNE,REDE,esquerda,Lula,"eleito, ex-deputado",medido 2019–26,-0.799,0,-0.589,-0.4337,0.0727
+PE,MARÍLIA ARRAES,PDT,centro-esquerda,Lula,"eleito, ex-deputado",medido 2019–26,-0.8,0,-0.3061,-0.4337,0.0727
+PA,Beto Faro,PT,esquerda,Lula,continua (classe 2023–31),medido 2019–26,-0.805,0,-0.6365,-0.4337,0.0727
+SP,GUILHERME DERRITE,PP,centro,nenhuma,"eleito, ex-deputado",medido 2019–26,0.778,0,0.2759,0.0715,0.0727
+ES,EVAIR DE MELO,REPUBLICANOS,centro,nenhuma,"eleito, ex-deputado",medido 2019–26,0.746,0,0.5209,0.0715,0.0727
+MA,LAHESIO BONFIM,NOVO,direita,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.731,0.221,0.634,0.0715,0.0727
+PR,DELTAN DALLAGNOL,NOVO,direita,nenhuma,"eleito, ex-deputado",medido 2019–26,0.695,0,0.634,0.0715,0.0727
+RS,MARCEL VAN HATTEM,NOVO,direita,nenhuma,"eleito, ex-deputado",medido 2019–26,0.656,0,0.634,0.0715,0.0727
+RS,Hamilton Mourão,REPUBLICANOS,centro,nenhuma,continua (classe 2023–31),medido 2019–26,0.616,0,0.5209,0.0715,0.0727
+DF,Damares Alves,REPUBLICANOS,centro,nenhuma,continua (classe 2023–31),medido 2019–26,0.521,0,0.5209,0.0715,0.0727
+MS,Tereza Cristina,PP,centro,nenhuma,continua (classe 2023–31),medido 2019–26,0.448,0,0.2759,0.0715,0.0727
+RR,Dr. Hiran,PP,centro,nenhuma,continua (classe 2023–31),medido 2019–26,0.4,0,0.2759,0.0715,0.0727
+MA,FUFUCA,PP,centro,nenhuma,"eleito, ex-deputado",medido 2019–26,0.281,0,0.2759,0.0715,0.0727
+SE,Laércio Oliveira,PP,centro,nenhuma,continua (classe 2023–31),medido 2019–26,0.261,0,0.2759,0.0715,0.0727
+AC,Alan Rick,REPUBLICANOS,centro,nenhuma,continua (classe 2023–31),medido 2019–26,0.255,0,0.5209,0.0715,0.0727
+MT,MAURO MENDES,UNIÃO,centro,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.249,0.221,0.1775,0.0715,0.0727
+AL,ARTHUR LIRA,PP,centro,nenhuma,"eleito, ex-deputado",medido 2019–26,0.244,0,0.2759,0.0715,0.0727
+AL,MARINA JHC,PSDB,centro,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.224,0.221,0.0342,0.0715,0.0727
+RJ,Romário,S/PARTIDO,centro,nenhuma,continua (classe 2023–31),medido 2019–26,0.217,0,-0.3565,0.0715,0.0727
+TO,ALEXANDRE GUIMARÃES,MDB,centro,nenhuma,"eleito, ex-deputado",medido 2019–26,0.212,0,-0.0841,0.0715,0.0727
+AM,PLINIO VALÉRIO,PSDB,centro,nenhuma,reeleito,medido 2019–26,0.182,0,0.0342,0.0715,0.0727
+AP,RAYSSA FURLAN,PODE,centro,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.152,0.221,0.0071,0.0715,0.0727
+PR,LUIS FELIPE CUNHA,UNIÃO,centro,nenhuma,suplente assume (classe 2023–31),"previsto (partido, coligação)",0.152,0.234,0.1775,0.0715,0.0727
+PI,JÚLIO CÉSAR O JULIM DO LULA,PSD,centro,nenhuma,"eleito, ex-deputado",medido 2019–26,0.123,0,0.0366,0.0715,0.0727
+AP,LUCAS BARRETO,PSD,centro,nenhuma,reeleito,medido 2019–26,0.105,0,0.0366,0.0715,0.0727
+AP,Davi Alcolumbre,UNIÃO,centro,nenhuma,continua (classe 2023–31),medido 2019–26,0.084,0,0.1775,0.0715,0.0727
+AC,MARA ROCHA,REPUBLICANOS,centro,nenhuma,"eleito, ex-deputado",medido 2019–26,0.08,0,0.5209,0.0715,0.0727
+GO,GRACINHA CAIADO,UNIÃO,centro,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",0.062,0.221,0.1775,0.0715,0.0727
+TO,Professora Dorinha Seabra,UNIÃO,centro,nenhuma,continua (classe 2023–31),medido 2019–26,0.049,0,0.1775,0.0715,0.0727
+RN,STYVENSON VALENTIM,PODE,centro,nenhuma,reeleito,medido 2019–26,0.007,0,0.0071,0.0715,0.0727
+PA,CHICÃO,UNIÃO,centro,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.001,0.221,0.1775,0.0715,0.0727
+RR,TERESA SURITA,MDB,centro,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.004,0.221,-0.0841,0.0715,0.0727
+AM,EDUARDO BRAGA,MDB,centro,nenhuma,reeleito,medido 2019–26,-0.02,0,-0.0841,0.0715,0.0727
+AL,Renan Filho,MDB,centro,nenhuma,continua (classe 2023–31),"previsto (partido, coligação)",-0.028,0.234,-0.0841,0.0715,0.0727
+AM,Omar Aziz,PSD,centro,nenhuma,continua (classe 2023–31),medido 2019–26,-0.056,0,0.0366,0.0715,0.0727
+PI,MARCELO CASTRO,MDB,centro,nenhuma,reeleito,medido 2019–26,-0.056,0,-0.0841,0.0715,0.0727
+PA,HELDER,MDB,centro,nenhuma,"eleito, sem registro federal","previsto (partido, coligação, coattail)",-0.169,0.221,-0.0841,0.0715,0.0727
+SE,DELEGADO ALESSANDRO,MDB,centro,nenhuma,reeleito,medido 2019–26,-0.203,0,-0.0841,0.0715,0.0727
+BA,Otto Alencar,PSD,centro,nenhuma,continua (classe 2023–31),medido 2019–26,-0.213,0,0.0366,0.0715,0.0727
+PB,VENEZIANO,MDB,centro,nenhuma,reeleito,medido 2019–26,-0.281,0,-0.0841,0.0715,0.0727
+PI,Jussara Lima,PSD,centro,nenhuma,continua (classe 2023–31),medido 2019–26,-0.448,0,0.0366,0.0715,0.0727

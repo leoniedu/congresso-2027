@@ -6,21 +6,29 @@ set.seed(2027)
 cam27 <- fread("data/camara_2027.csv"); sen27 <- fread("data/senado_2027.csv")
 cam23 <- unique(fread("data/camara_2023_26.csv")); sen23 <- unique(fread("data/senado_2023_26.csv"))
 gov <- fread("data/governos.csv")
+res <- fread("data/residuos.csv")   # CV residuals of the prediction models, by chamber and bloc (empirical predictive distribution)
+pools <- split(res$residuo, paste(res$casa, res$bloco))
+pool_key <- function(casa, origem, bloco) paste(fifelse(casa == "Câmara" | grepl("coattail\\)$", origem), casa, "Senado (sem coattail)"), bloco)
+prep <- function(d, casa) { d <- copy(d); d[, prev := startsWith(origem, "previsto")]; d[, key := pool_key(casa, origem, bloco)]; d[, mapped := origem == "medido 2015–18 (mapeado)"]; d }
+draw <- function(d) { x <- d$dim1
+  for (k in unique(d$key[d$prev])) { i <- which(d$prev & d$key == k); x[i] <- x[i] + sample(pools[[k]], length(i), replace = TRUE) }
+  if (any(d$mapped)) x[d$mapped] <- x[d$mapped] + rnorm(sum(d$mapped), 0, d$erro[d$mapped])
+  x }
 g <- function(c, v) gov$dim1[gov$casa == c & gov$governo == v]
 seats <- function(x, n) quantile(x, (seq_len(n) - 0.5) / n, names = FALSE)
 piv <- function(x, n) { s <- sort(x); k <- ceiling(3 * n / 5); c(veto_dir = s[n - k + 1], mediana = s[ceiling(n / 2)], veto_esq = s[k]) }
 custo <- function(x, g0, k) { d <- sort(pmax(0, (x - g0) * if (g0 < 0) 1 else -1)); c(alcance = d[k], custo = sum(d[1:k])) }
-sim <- function(f, x, err, n = 2000) { s <- replicate(n, f(x + rnorm(length(x), 0, err))); list(media = rowMeans(s), lo = apply(s, 1, quantile, .025), hi = apply(s, 1, quantile, .975)) }
+sim <- function(f, d, n = 2000) { s <- replicate(n, f(draw(d))); list(media = rowMeans(s), lo = apply(s, 1, quantile, .025), hi = apply(s, 1, quantile, .975)) }
 casas <- list(
-  list(casa = "Câmara", n = 513, k = c(maioria = 257, `3/5` = 308, `2/3` = 342), x23 = seats(cam23$dim1, 513), x27 = cam27$dim1, e27 = cam27$erro),
-  list(casa = "Senado", n = 81, k = c(maioria = 41, `3/5` = 49, `2/3` = 54), x23 = seats(sen23$dim1, 81), x27 = sen27$dim1, e27 = sen27$erro))
+  list(casa = "Câmara", n = 513, k = c(maioria = 257, `3/5` = 308, `2/3` = 342), x23 = seats(cam23$dim1, 513), d27 = prep(cam27, "Câmara")),
+  list(casa = "Senado", n = 81, k = c(maioria = 41, `3/5` = 49, `2/3` = 54), x23 = seats(sen23$dim1, 81), d27 = prep(sen27, "Senado")))
 pivos <- list(); custos <- list()
 for (h in casas) {
-  p23 <- piv(h$x23, h$n); p27 <- sim(function(x) piv(x, h$n), h$x27, h$e27)
+  p23 <- piv(h$x23, h$n); p27 <- sim(function(x) piv(x, h$n), h$d27)
   pivos[[h$casa]] <- data.table(casa = h$casa, ponto = names(p23), `2023-26` = p23, `2027` = p27$media, lo = p27$lo, hi = p27$hi)
   for (gv in c("Lula", "Direita")) for (lim in names(h$k)) {
     c23 <- custo(h$x23, g(h$casa, gv), h$k[[lim]])
-    c27 <- sim(function(x) custo(x, g(h$casa, gv), h$k[[lim]]), h$x27, h$e27, 1000)
+    c27 <- sim(function(x) custo(x, g(h$casa, gv), h$k[[lim]]), h$d27, 1000)
     custos[[length(custos) + 1]] <- data.table(casa = h$casa, governo = gv, limiar = lim, k = h$k[[lim]],
       alcance_2023_26 = c23[["alcance"]], alcance_2027 = c27$media[["alcance"]], custo_2023_26 = c23[["custo"]],
       custo_2027 = c27$media[["custo"]], lo = c27$lo[["custo"]], hi = c27$hi[["custo"]])
@@ -48,6 +56,6 @@ p <- ggplot() + geom_vline(xintercept = 0, colour = "#e3e3e0") +
   guides(fill = guide_legend(order = 1), shape = guide_legend(order = 2, nrow = 1)) +
   labs(x = "escala comum 2019-2026 (dimensão 1): esquerda / governo Lula  ·  direita / governo Bolsonaro", y = NULL,
        title = "Onde ficam a mediana e os pontos de veto, antes e depois de 2026",
-       subtitle = "Barra: faixa entre os dois pivôs de 3/5. Triângulos: posição dos governos. 2027: média de 2.000 sorteios com o erro de previsão.") +
+       subtitle = "Barra: faixa entre os dois pivôs de 3/5. Triângulos: posição dos governos. 2027: média de 2.000 sorteios, previstos com resíduos empíricos por bloco.") +
   theme_minimal(base_size = 10) + theme(legend.position = "bottom", legend.box = "vertical", panel.grid.minor = element_blank(), panel.grid.major.y = element_blank(), plot.title.position = "plot")
 ggsave("figures/pivos.png", p, width = 9, height = 4.6, dpi = 200, bg = "white")
